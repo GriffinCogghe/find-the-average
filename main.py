@@ -6,7 +6,7 @@ integer_1 = int(input("Enter an integer: "))
 integer_2 = int(input("Enter another integer: "))
 integer_3 = int(input("Enter one more integer: "))
 
-average = integer_1 + integer_2 + integer_3 / 3
+average = (integer_1 + integer_2 + integer_3) / 3
 
 print()
 print(f"The average is {average}.")
